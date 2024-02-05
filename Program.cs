@@ -75,7 +75,7 @@ class Program
             Console.WriteLine("Action needs to be selected:");
             Console.WriteLine("1. Feed the pet");
             Console.WriteLine("2. Play with the pet");
-            Console.WriteLine("3. keep the pet to sleep");
+            Console.WriteLine("3. the pet must be sleeping on time");
             Console.WriteLine("4. Quit");
 
             char choice = Console.ReadKey().KeyChar;
