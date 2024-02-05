@@ -35,7 +35,7 @@ class VirtualPet
     public void Play()
     {
 
-        Console.WriteLine("You play with the pet.");
+        Console.WriteLine("Its Pet Playing Time.");
         hunger += 5;
         happiness += 15;
         energy -= 10;
@@ -96,11 +96,11 @@ class Program
                     Console.WriteLine("Thanks for playing! Goodbye!");
                     return;
                 default:
-                    Console.WriteLine("Invalid choice. Please choose a valid option.");
+                    Console.WriteLine("Invalid choice.Please choose a valid option.");
                     break;
             }
 
-            myPet.UpdateStatus(); // Simulate the passage of time
+            myPet.UpdateStatus(); 
         }
     }
 }
