@@ -25,7 +25,7 @@ class VirtualPet
     // Method to feed the pet
     public void Feed()
     {
-        Console.WriteLine("You feed the pet.");
+        Console.WriteLine("You must feed the pet.");
         hunger -= 10;
         happiness += 5;
         energy += 10;
